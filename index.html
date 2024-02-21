@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>WeatherApp </h1>
+    <p id="displaymsg"></p>
+    <div class="wrapper">
+        <div class="Input">
+            <form id="reset"> 
+                <label for="userInput"  class="inputlabel">Enter city name:</label>
+                <input type="text" id="userInput" />
+                <button type="button" onclick="submitForm()">Send</button>
+            </form>
+        </div>
+        <div class="container">
+            <div class="grid-item">
+                <span class="label">City:</span>
+                <p id="cityName"></p>
+                <span class="label">Country:</span>
+                <p id="country_name"></p>
+            </div>
+            <div class="grid-item content">
+                <span class="label">Weather Details</span>
+                <diV id="main"></diV>
+                <diV id="description"></diV>
+                <diV>3</diV>
+            </div>
+            <div class="grid-item"> <img src="" alt="weather icon" id="imag"> </div>
+        </div>
+    </div>
+	<script src="script.js"></script>
+  </body>
+
+
+  

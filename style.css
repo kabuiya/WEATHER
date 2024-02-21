@@ -1,0 +1,62 @@
+.container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    row-gap: 10px;
+    column-gap: 10px;
+    color: white;
+
+    
+
+
+}
+.grid-item{
+    border-right: 1px solid gray;
+    padding: 25px;
+    column-gap: 10px;
+}
+
+.grid-item p{
+    color: black;
+}
+.wrapper{
+    margin: auto;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.label{
+color: blue;
+font-size: xx-large;
+
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+button:hover{
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+
+}
+.inputlabel {
+    color: gray ;
+    font-family: fantasy;
+
+}
+#main,#description{
+    color: black;
+}
+
+#displaymsg{
+    color: blue;
+    text-align: center;
+}
