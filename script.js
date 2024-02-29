@@ -5,7 +5,7 @@ function submitForm(){
     let imageElement = document.getElementById('imag');
     if (input.value !==''){
     let city_name = input.value
-    let ky ="ky"
+    let ky ="insert key"
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=${ky}`
     document.getElementById("reset").reset()
     fetch(url)
